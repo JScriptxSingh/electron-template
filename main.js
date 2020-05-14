@@ -1,15 +1,14 @@
 // Modules to control application life and create native browser window
-const electron = require('electron')
-const BrowserWindow = electron.BrowserWindow
-const app = electron.app
+const {app, BrowserWindow, ipcMain} = require('electron')
 const path = require('path')
-const ipc = electron.ipcMain
 
 function createWindow() {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
     width: 800,
     height: 600,
+    center: true,
+    minWidth: 600,
     webPreferences: {
       nodeIntegration: true
     }
@@ -28,7 +27,7 @@ function createWindow() {
 app.whenReady().then(() => {
   createWindow()
 
-  app.on('activate', function () {
+  app.on('activate', () => {
     // On macOS it's common to re-create a window in the app when the
     // dock icon is clicked and there are no other windows open.
     if (BrowserWindow.getAllWindows().length === 0) createWindow()
@@ -36,7 +35,7 @@ app.whenReady().then(() => {
 })
 
 // Quit when all windows are closed.
-app.on('window-all-closed', function () {
+app.on('window-all-closed', () => {
   // On macOS it is common for applications and their menu bar
   // to stay active until the user quits explicitly with Cmd + Q
   if (process.platform !== 'darwin') app.quit()

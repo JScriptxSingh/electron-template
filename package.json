@@ -12,12 +12,8 @@
     "Template"
   ],
   "author": "jscrypt-singh",
-  "license": "CC0-1.0",
+  "license": "ISC",
   "devDependencies": {
     "electron": "^8.2.5"
-  },
-  "dependencies": {
-    "bootstrap": "^4.5.0",
-    "bootstrap-icons": "^1.0.0-alpha3"
   }
 }
