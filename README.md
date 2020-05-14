@@ -9,7 +9,8 @@ https://github.com/electron/electron-quick-start/tree/665bf98bd013e0fe692899ddff
 - Moved app files to 'app' folder
 - Removed preload.js
 - Renamed renderer.js to index.js
-- Added Skeleton and Bootstrap
+- Added Bootstrap 4.4.1
+- Added Bootstrap Icons 1.0.0-alpha3
 - set ```webPreferences: {
       nodeIntegration: true
     }``` for enableing ipc
