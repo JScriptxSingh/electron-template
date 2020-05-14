@@ -1,9 +1,8 @@
 # electron template
 
-**Modified copy of started files available from electrom here**
+**Modified copy of started files available from electrom in this commit**
 
-https://github.com/electron/electron-quick-start
-665bf98bd013e0fe692899ddff7ab175cd82bed7
+https://github.com/electron/electron-quick-start/tree/665bf98bd013e0fe692899ddff7ab175cd82bed7
 
 **Modifications Done**
 - Added ipcMain
