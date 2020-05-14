@@ -3,8 +3,7 @@
 **Modified copy of started files available from electrom here**
 
 https://github.com/electron/electron-quick-start
-
-commit 665bf98bd013e0fe692899ddff7ab175cd82bed7
+665bf98bd013e0fe692899ddff7ab175cd82bed7
 
 **Modifications Done**
 - Added ipcMain
