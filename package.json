@@ -6,7 +6,7 @@
   "scripts": {
     "start": "electron ."
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": "https://github.com/jscrypt-singh/electron-template",
   "keywords": [
     "Electron",
     "Template"
